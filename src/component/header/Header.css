@@ -1,0 +1,23 @@
+.searchComponent{
+    margin-left: 25px;
+}
+
+.styles {
+    border: 1px solid #ccc;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    margin: auto;
+    display: flex;
+    height: 120px;
+    width: 900px
+}
+
+.styleDivLogo {
+    margin-top: 20px;
+    width: 80%
+}
+
+.styleDivSearch {
+    margin-top: 20px;
+    border: 3px red;
+    width: 50%
+}

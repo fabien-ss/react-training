@@ -1,0 +1,23 @@
+.Filtre input{
+    border: 1px solid #cccccc;
+    border-radius: 3px;
+}
+.Filtre{
+    border: none;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 15px;
+}
+
+#button1{
+    margin-top: 15px;
+    border: 1px solid #ccc;
+    background-color: transparent;
+    height: 20px;
+    border-radius: 3px;
+}
+.Filtre h2{
+}
+
+.Texte{
+    font-size: 14px;
+}

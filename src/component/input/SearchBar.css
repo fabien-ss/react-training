@@ -1,0 +1,42 @@
+
+.buttonStyle {
+    width: 50%;
+    padding: 10px;
+    margin-bottom: 25px;
+    border: 1px solid #ccc;
+    font-size: 10px;
+    font-family: sans-serif;
+}
+
+.buttonStyle:focus {
+    outline: none;
+    background-color: #cccccc;
+}
+
+.buttonStyle[type="submit"] {
+    background-color: #cccccc;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.buttonStyle[type="submit"]:hover {
+    background-color: #cccccc;
+}
+
+.buttonStyle[type="text"] {
+    margin-top: 15px;
+}
+
+.buttonStyleContainer{
+    display: inline;
+    float: right;
+}
+
+.buttonStyleSearch{
+    padding: 10px;
+    margin-bottom: 25px;
+    border: 1px solid #ccc;
+    font-size: 10px;
+    font-family: sans-serif;
+}
