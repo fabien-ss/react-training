@@ -1,6 +1,7 @@
 
 .styleImageGroup{
-    width: 700px;
+    margin-top: 120px;
+    width: 80%;
     display: flex;
     flex-wrap: wrap;
     align-items: stretch;
@@ -9,11 +10,11 @@
 .styleContent  {
     padding: 10px;
     margin : auto;
-    width : 900px;
+    width : 75%;
     display: flex
 }
 
 .styleFilter {
-    padding-left: 10px;
-    width: 200px;
+    margin-top: 120px;
+    width: 20%;
 }

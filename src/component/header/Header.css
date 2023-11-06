@@ -7,17 +7,22 @@
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     margin: auto;
     display: flex;
-    height: 120px;
-    width: 900px
+    height: 100px;
+    width: 100%;
+    position: fixed;
+    background-color: white;
 }
 
 .styleDivLogo {
     margin-top: 20px;
-    width: 80%
+    width: 50%
 }
 
 .styleDivSearch {
     margin-top: 20px;
-    border: 3px red;
+    width: 50%
+}
+
+.styleDivCenter{
     width: 50%
 }

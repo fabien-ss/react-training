@@ -24,8 +24,9 @@ class Filter extends React.Component{
             <div className="Filtre">
                 <h2>Filter</h2>
                 <span className="number"> Price min <input name="MinPrice" onChange={ this.setPriceValue }/> </span>
+                <br />
                 <span className="number"> Price max <input  name="MaxPrice" onChange={ this.setPriceValue }/> </span>
-                <input type="submit" id="button1" onClick={(e) => {
+                <input type="submit" className="button-17" onClick={(e) => {
                     this.filterPrice(this.state.MinPrice, this.state.MaxPrice)
                 }}/>
             </div>

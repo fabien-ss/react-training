@@ -5,9 +5,10 @@ const styleFooter = {
     border: "none",
     "box-shadow": "0 4px 8px 0 rgba(0, 0, 0, 0.2)",
     margin: "auto",
-    width: "900px",
+    width: "100%",
     display: "flex",
-    "margin-bottom": "0px"
+    "margin-bottom": "0px",
+    
 }
 
 class Footer extends React.Component{

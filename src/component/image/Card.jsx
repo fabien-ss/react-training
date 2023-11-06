@@ -44,7 +44,6 @@ class Card extends React.Component {
             <img className="image"
               alt={this.props.text}
               src={this.state.mainimage}
-              style={{ width: 150, height: 90 }}
             />
             <div className="card-child">
               {this.state.images.map((element, index) =>(
@@ -70,10 +69,12 @@ class Card extends React.Component {
           <div className="card-action" >
               <input
                 type="submit"
-                value="Buy"
+                value="add to bag"
+                className="button-18"
                 onClick={(e) =>
                   this.addToBag()
                 }
+
               />
             <label>
               {this.state.message}
