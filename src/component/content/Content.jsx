@@ -9,9 +9,9 @@ class Content extends React.Component{
         this.state = {
             dataForCard : [{
                 mainimage : process.env.PUBLIC_URL + "./OIP.jfif",
-                image1 : process.env.PUBLIC_URL + "./OIP (1).jfif",
-                image2 : process.env.PUBLIC_URL + "./OIP (2).jfif",
                 image3 : process.env.PUBLIC_URL + "./OIP (3).jfif",
+                image2 : process.env.PUBLIC_URL + "./OIP (2).jfif",
+                image1 : process.env.PUBLIC_URL + "./OIP (1).jfif",
                 argent:50
             },{
                 mainimage : process.env.PUBLIC_URL + "./OIP.jfif",
@@ -77,22 +77,31 @@ class Content extends React.Component{
     render(){
 
         return(
-            <div className="styleContent">
-                <div className="styleImageGroup">
-                    {this.state.cardFilter.map((element) =>(
-                        <Card
-                            mainimage = { element.mainimage }
-                            image1 = { element.image1 }
-                            image2 = { element.image2 }
-                            image3 = { element.image3 }
-                            argent = { element.argent }
-                        />
-                    ))}
-                </div>
-                <div className="styleFilter">
-                    <Filter onStateChange={this.handleChildStateChange}/>
-                </div>
-            </div>
+            <main id="main" className="main">
+                <section className="section dashboard">
+                    <div className="styleContent">
+                        <div className="styleImageGroup">
+                            {this.state.cardFilter.map((element) =>(
+                                                               <div className="card">
+                                    <div className="card-header">Product</div>
+                                    <div className="card-body">
+                                    <Card
+                                        mainimage = { element.mainimage }
+                                        image1 = { element.image1 }
+                                        image2 = { element.image2 }
+                                        image3 = { element.image3 }
+                                        argent = { element.argent }
+                                    />
+                                    </div>
+                                </div>
+                            ))}
+                        </div>
+                        <div className="styleFilter">
+                            <Filter onStateChange={this.handleChildStateChange}/>
+                        </div>
+                    </div>
+                </section>
+            </main>
         )
     }
 }
